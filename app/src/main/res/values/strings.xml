@@ -1,0 +1,152 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Ssafe Security</string>
+    <string name="Roboto_Light" translatable="false">sans-serif-light</string>
+    <string name="Roboto_Regular" translatable="false">sans-serif</string>
+    <string name="Roboto_Medium" translatable="false">sans-serif-medium</string>
+    <string name="Roboto_bold" translatable="false">sans-serif-bold</string>
+    <string name="boot_child_process_name" translatable="false">:sub_channel</string>
+    <string name="fileSizeSuffix" translatable="false"><xliff:g example="123" id="number">%1$s</xliff:g><xliff:g example="KB" id="unit">%2$s</xliff:g></string>
+
+    <string name="open_setting_error">Something wrong, please try again</string>
+    <string name="permission_setting_request">Permission required, please grant permissions and try again</string>
+    <string name="txt_main_title_risk">Security issues</string>
+    <string name="txt_main_desc_risk">Scan to remove potential risks</string>
+    <string name="txt_main_desc_safe">Last scan: %1$s</string>
+
+    <string name="txt_rescan">Rescan</string>
+    <string name="txt_scan">Scan</string>
+    <string name="txt_game_boost">Game Boost</string>
+    <string name="txt_game_boost_desc">Make games smoother</string>
+    <string name="txt_app_manager">App Manager</string>
+    <string name="txt_app_manager_desc">Manage installed apps on device</string>
+    <string name="txt_junk_clean">Junk Clean</string>
+    <string name="txt_junk_clean_desc">Usage %1$s/%2$s</string>
+    <string name="txt_battery_save">Battery Save</string>
+    <string name="txt_battery_save_desc">Power draining fast</string>
+    <string name="txt_uninstall">Uninstall</string>
+    <string name="txt_apk_files">APK Files</string>
+
+    <string name="save_upper">SAVE</string>
+    <string name="txt_save">Save</string>
+
+    <string name="bs_request_permission_title">Permission Required</string>
+    <string name="bs_request_permission_desc">In order to provide your with better service, we need the following permissions:</string>
+    <string name="floating_permission_name">Floating window</string>
+    <string name="floating_per_desc">Ensure that the power saving process is not disturbed</string>
+    <string name="accessibility_permission_name">Accessibility Service</string>
+    <string name="bs_scan_result_hint">Stop fast power consuming apps</string>
+    <string name="consuming_power">Consuming power</string>
+    <string name="wifi" translatable="false">Wi-Fi</string>
+    <string name="virus">Virus</string>
+    <string name="privacy_security">Privacy Security</string>
+    <string name="txt_no_data">No data</string>
+    <string name="txt_size">Size</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_apps">%1$s Apps</string>
+
+    <string name="txt_useless_apk">Useless APKs</string>
+    <string name="txt_ad_junk">AD Junk</string>
+    <string name="txt_system_junk">System Junk</string>
+    <string name="txt_cache_files">Cache Files</string>
+    <string name="txt_zero_bit" translatable="false">0B</string>
+    <string name="txt_junk_scanning">Junk Scanning</string>
+    <string name="txt_junk_to_clean">Junk to clean</string>
+    <string name="txt_clean_junk_with">Clean Junk (%1$s)</string>
+    <string name="unknown_app">Unknown app</string>
+    <string name="txt_junk_cleaning">Junk cleaning ...</string>
+    <string name="scanning_wifi">Scanning Wi-Fi</string>
+    <string name="scanning_virus">Scanning Virus</string>
+    <string name="scanning_risk">Scanning Risk</string>
+    <string name="safe">Safe</string>
+    <string name="found_issues">Found %1$s issues</string>
+    <string name="fix_issues">Fix %1$s issues</string>
+    <string name="pin_scan">Scanning %1$s</string>
+    <string name="unknown">Unknown</string>
+    <string name="security_scan">Security Scan</string>
+    <string name="security_result_title">Scan Result</string>
+    <string name="security_result_desc">No risk found</string>
+    <string name="security_action">Fix Selected</string>
+    <string name="in_danger">In Danger</string>
+    <string name="virus_app">Virus app</string>
+    <string name="ok">Ok</string>
+    <string name="find_and_enable">Please find and enable \"%1$s\"</string>
+    <string name="zz">Your can get real-time protection after grant the permission</string>
+    <string name="txt_result">Result</string>
+    <string name="txt_general">General</string>
+    <string name="txt_security_reminder">Security reminder</string>
+    <string name="txt_security_reminder_desc">Send reminder notification when risk detected</string>
+    <string name="txt_other">Other</string>
+    <string name="txt_about_us">About us</string>
+    <string name="txt_privacy_policy">Privacy policy</string>
+    <string name="txt_version">Version: %1$s</string>
+    <string name="txt_preferences">Preferences</string>
+    <string name="permission_storage_setting_request">Permission required, please grant storage permissions and try again</string>
+    <string name="clean">Clean</string>
+    <string name="txt_install">Install</string>
+    <string name="txt_no_install">No install</string>
+    <string name="version">Version:</string>
+
+    <string name="txt_just_now">Just now</string>
+    <string name="txt_minutes_ago">%1$s minutes ago</string>
+    <string name="txt_hours_ago">%1$s hours ago</string>
+    <string name="txt_days_ago">%1$s days ago</string>
+    <string name="txt_weeks_ago">%1$s weeks ago</string>
+
+    <string name="txt_ret_clean_title">Storage optimized</string>
+    <string name="txt_ret_clean_desc_1">Clean %1$s junk</string>
+    <string name="txt_ret_clean_desc_2">No more to clean</string>
+    <string name="txt_available_battery">Power left %1$d%%</string>
+    <string name="ram">RAM</string>
+    <string name="add_game">Add Game</string>
+    <string name="no_scan_game">No games found</string>
+    <string name="installed_game">Installed Game</string>
+    <string name="best_performance">Best Performance</string>
+    <string name="toast_game_boost_result">Game boost done, speed improved %1$s%%</string>
+    <string name="boost">Boost</string>
+    <string name="app_list">App List</string>
+    <string name="txt_search_app">Search apps</string>
+    <string name="update">Update</string>
+    <string name="sign_out">Leave app</string>
+    <string name="txt_safety">Safety</string>
+    <string name="txt_percent" translatable="false">%1$s%%</string>
+    <string name="load">Loading...</string>
+
+    <string name="notify_clean_title">Long time no scanning junks </string>
+    <string name="notify_clean_desc">Clean junks to release storage space</string>
+
+    <string name="notify_safe_title">System may have potential risks</string>
+    <string name="notify_safe_desc">Scan and erase security issues</string>
+
+    <string name="notify_battery_title">Battery drains fast</string>
+    <string name="notify_battery_desc">Close consuming apps to save battery</string>
+    <string name="quit_tips">Press back again to quit</string>
+    <string name="txt_bs_cleaning_apps">%1$d/%2$d Apps</string>
+    <string name="txt_bs_cleaning_desc">Closing battery-draining apps ...</string>
+
+    <string name="perm_grant_title">Permission required for risks detecting</string>
+    <string name="perm_grant_desc">Grant necessary permissions to analyze potential security issues effectively</string>
+
+    <string name="perm_item_1_title">Detect apps that use too much storage</string>
+    <string name="perm_item_1_desc">Keep your phone from storage shortage</string>
+
+    <string name="perm_item_2_title">Guard network safety</string>
+    <string name="perm_item_2_desc">Auto check security when network changed</string>
+
+    <string name="perm_item_3_title">Realtime protection</string>
+    <string name="perm_item_3_desc">Auto detect background virus in real time</string>
+    <string name="txt_enable">Enable</string>
+    <string name="txt_delay_process">Process later, skip now</string>
+    <string name="txt_preparing">Security protect &amp; System optimize</string>
+    <string name="save_high4">Usage time extended: %1$s</string>
+    <string name="d54">OPTIMAL</string>
+    <string name="minute">minute</string>
+    <string name="install_safe">%1$s can be safely used</string>
+    <string name="install_risk">%1$s risks, uninstall now</string>
+    <string name="open">Open</string>
+    <string name="remove">Remove</string>
+    <string name="txt_sponsored" translatable="false">Sponsored</string>
+    <string name="txt_high">High power consumption</string>
+    <string name="bs_scan_result_desc">Found %1$d High Power Consumption app(s)</string>
+    <string name="agree_privacy_policy">I have read and agree the &lt;a href=\"\"&gt;Privacy Policy&lt;/a&gt;</string>
+    <string name="please_enable_policy">Please agree to the privacy policy</string>
+</resources>
