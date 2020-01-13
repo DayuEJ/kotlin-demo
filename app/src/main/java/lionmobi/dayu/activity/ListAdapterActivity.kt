@@ -14,7 +14,8 @@ import lionmobi.dayu.mode.User
 import lionmobi.dayu.myapplication.R
 
 class ListAdapterActivity : BaseActivity(){
-    var mDataList = mutableListOf<User>();//相当于创建一个空的集合
+    var mDataList = mutableListOf<User>();//相当于创建一个空的集  mutableListOf<User>()
+    var mCacheList = ArrayList<User>();
     lateinit var adapter : MyAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,7 +30,7 @@ class ListAdapterActivity : BaseActivity(){
                 mDataList.add(user);
             }
             adapter = MyAdapter();
-            list_view.adapter = adapter;
+//            list_view.adapter = adapter;
             adapter.notifyDataSetChanged();
         }
     }
